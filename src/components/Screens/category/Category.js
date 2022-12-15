@@ -7,7 +7,7 @@ import img5 from '../../../images/5.png';
 
 const Category = () => {
     return (
-        <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-12 container mx-14 my-16 py-14'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-13 container mx-auto my-16 py-14'>
             <div className="card card-compact w-96 bg-base-100  mb-10 pb-16">
                 <figure><img className='h-40 w-40 rounded' src={img1} alt="Shoes" /></figure>
 
