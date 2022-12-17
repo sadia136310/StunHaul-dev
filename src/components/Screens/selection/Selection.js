@@ -1,36 +1,42 @@
 import React from 'react';
 const Selection = () => {
     return (
-        <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 my-14 gap-20 mx-14'>
-            <div className='flex gap-6'>
-                <img className='w-20 h-20' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-01.png" alt="" />
-                <div>
-                    <h1 className='text-2xl font-bold pb-4'>High Quality Selection</h1>
-                    <p className='text-xl sm:hidden md:hidden lg:block'>Total Product Quality Control For Peace Of Mind</p>
-                </div>
-            </div>
-            <div className='flex gap-6'>
-                <img className='w-20 h-20' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-02.png" alt="" />
-                <div>
-                    <h1 className='text-2xl font-bold pb-4'>Affordable Prices</h1>
-                    <p className='text-xl sm:hidden md:hidden lg:block'>Factory Direct Prices For Maximum Savings</p>
-                </div>
-            </div>
-            <div className='flex gap-6'>
-                <img className='w-20 h-20' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-03.png" alt="" />
-                <div>
-                    <h1 className='text-2xl font-bold pb-4'>Secure Payment</h1>
-                    <p className='text-xl sm:hidden md:hidden lg:block'>Fast, Reliable Delivery From Global  Warehouses
-                    </p>
-                </div>
-            </div>
-            <div className='flex gap-6'>
-                <img className='w-20 h-20' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-04.png" alt="" />
-                <div>
-                    <h1 className='text-2xl font-bold pb-4'>
-                        Worry Free</h1>
-                    <p className='text-xl sm:hidden md:hidden lg:block'>Instant Access To 
-                        Professional Support</p>
+        <div className='bg-base-300 my-7 py-6'>
+            <div className='container mx-auto'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-16'>
+                    <div className='flex align-items-center gap-5 '>
+                        <img className='w-15 h-10' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-01.png" alt="Movie" />
+                        <div>
+                            <h2 className="text-lg font-bold pb-2">High Quality Selection
+                            </h2>
+                            <small className='sm:hidden md:hidden lg:block'>Total Product Quality <br /> Control  For Peace Of Mind </small>
+                        </div>
+                    </div>
+                    <div className='flex align-items-center gap-5 '>
+                        <img className='w-15 h-10' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-02.png" alt="Movie" />
+                        <div>
+                            <h2 className="text-lg font-bold pb-2">Affordable Prices
+                            </h2>
+                            <small className='lg:block md:hidden sm:hidden'>Factory Direct Prices For <br /> Maximum Savings </small>
+                        </div>
+                    </div>
+                    <div className='flex align-items-center gap-5 '>
+                        <img className='w-10 h-10' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-03.png" alt="Movie" />
+                        <div>
+                            <h2 className="text-lg font-bold pb-2">Secure Payment
+                            </h2>
+                            <small className='lg:block md:hidden sm:hidden'>Fast, Reliable Delivery From <br /> Global Warehouses </small>
+                        </div>
+                    </div>
+                    <div className='flex align-items-center gap-5 '>
+                        <img className='w-10 h-10' src="https://stunhaul.com/wp-content/uploads/2022/02/footer-image-box-04.png" alt="Movie" />
+                        <div>
+                            <h2 className="text-lg font-bold pb-2">Worry Free
+                            </h2>
+                            <small className='lg:block md:hidden sm:hidden'>Instant Access To <br />
+                                Professional Support </small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
